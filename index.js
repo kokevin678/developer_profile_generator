@@ -1,5 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
+const electron = require("electron");
+const axios = require("axios");
 
 const questions = [
     {
